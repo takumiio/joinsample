@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Conference:</strong>
+  <%= @shared_room.conference %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @shared_room.user_id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @shared_room.name %>
+</p>
+
+<%= link_to 'Edit', edit_shared_room_path(@shared_room) %> |
+<%= link_to 'Back', shared_rooms_path %>

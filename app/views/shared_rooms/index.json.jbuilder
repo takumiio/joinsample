@@ -1,0 +1,1 @@
+json.array! @shared_rooms, partial: 'shared_rooms/shared_room', as: :shared_room

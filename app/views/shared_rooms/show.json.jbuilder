@@ -1,0 +1,1 @@
+json.partial! "shared_rooms/shared_room", shared_room: @shared_room
